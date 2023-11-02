@@ -23,13 +23,13 @@ body {
 .hero\.container {
     font-family: 'Anton', sans-serif;
 }
-h1{
+h3{
 font-family: 'Anton', sans-serif;
     font-size: 50px;
 }
-h3{
+/*h3{
     font-size: 30px;
-}
+}*/
 .col1 {
     min-height: 10px;
     min-width: 30px;
