@@ -5,27 +5,37 @@
     display: flex;
     flex-direction: column;
     min-height: 100dvh;
+
 }
 
+/* Add custom CSS for styling */
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #F0F0F0;
+}
+/* Customize other styles according to the style guide */
+.hero\.container {
+    font-family: 'Anton', sans-serif;
+}
 .col1 {
     min-height: 10px;
     min-width: 30px;
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
 
 /* Apply styles to the specific navigation links */
 .nav-item-text {
-    font-family: 'Abel&family', sans-serif;
-    font-size: 12px;
-    color: grey;
+    font-family: 'Abel', sans-serif;
+    font-size: 10px;
     margin-left: 10px;
     /*
     color: grey; /* Replace with the desired text color */
 }
+
 /*Circle Designs*/
 .design-circle {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     background-color: #E6563B;
     border-radius: 50%;
     display: flex;
@@ -35,8 +45,8 @@
     color: white;
 }
 .develop-circle {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     background-color: #EB9D3A;
     border-radius: 50%;
     display: flex;
@@ -46,8 +56,8 @@
     color: white;
 }
 .support-circle {
-    width: 200px;
-    height: 200px;
+    width: 125px;
+    height: 125px;
     background-color: #7CB06C;
     border-radius: 50%;
     display: flex;
@@ -57,8 +67,8 @@
     color: white;
 }
 .host-circle {
-     width: 200px;
-     height: 200px;
+     width: 125px;
+     height: 125px;
      background-color: #00ABA9;
      border-radius: 50%;
      display: flex;
@@ -68,16 +78,16 @@
      color: white;
  }
 .outer-circle {
-    width: 220px;
-    height: 220px;
-    background-color: #F0F0F0;
+    width: 150px;
+    height: 150px;
+    background-color: #FFFFFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-/* Add custom CSS for styling */
-body {
-    font-family: 'Montserrat', sans-serif;
 }
-/* Customize other styles according to the style guide */
+.container-fluid{
+    background-color: #F0F0F0;
+}
+
+
