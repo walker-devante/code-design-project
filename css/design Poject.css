@@ -1,6 +1,12 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css") layer(framework);
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
 
+:root {
+    --red: #e6563b;
+    --green: #7cb06c;
+    --yellow: #EB9D3A;
+    --blue: #00aba9;
+}
 .page-wrapper {
     display: flex;
     flex-direction: column;
@@ -17,6 +23,13 @@ body {
 .hero\.container {
     font-family: 'Anton', sans-serif;
 }
+h1{
+font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
 .col1 {
     min-height: 10px;
     min-width: 30px;
@@ -28,11 +41,44 @@ body {
     font-family: 'Abel', sans-serif;
     font-size: 10px;
     margin-left: 10px;
+    color: grey;
     /*
     color: grey; /* Replace with the desired text color */
 }
+.card-text {
+    font-size: 13px;
+}
+h5 {
+    font-size: 14px;
+}
+
 
 /*Circle Designs*/
+.small-circles {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    font-size: 8px;
+    line-height: 18px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 1em;
+}
+
+.small-circles span {
+    position: relative;
+    top: 1px;
+}
+
+.circle h6 {
+    margin: 0;
+}
+
+.red {background-color: var(--red);}
+.blue {background-color: var(--blue);}
+.yellow {background-color: var(--yellow);}
+.green {background-color: var(--green);}
+
+
 .design-circle {
     width: 125px;
     height: 125px;
@@ -88,6 +134,43 @@ body {
 }
 .container-fluid{
     background-color: #F0F0F0;
+}
+/* Add this CSS code to style your HTML structure */
+.small-images {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.small-images img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Optional: Style for "small-images-head" and "small-images-google" */
+.small-images-head,
+.small-images-google {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.small-images-head img,
+.small-images-google img {
+    width: 100%;
+    height: 100%;
+}
+
+.tweet p {
+    margin: 0; /* Remove default margin for the "p" elements inside the "tweet" class */
+}
+
+/* Optional: Style for the "tweet" class */
+.tweet a {
+    text-decoration: none; /* Remove underline for the links inside the "tweet" class */
+}
+
+/* Optional: Style for the "tweet" class on hover */
+.tweet a:hover {
+    text-decoration: underline; /* Add underline on hover for the links inside the "tweet" class */
 }
 
 
