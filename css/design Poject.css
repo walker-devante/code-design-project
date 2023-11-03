@@ -1,6 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css") layer(framework);
 @import url("https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap");
-
+*{
+    background-color: #F0F0F0;
+}
 :root {
     --red: #e6563b;
     --green: #7cb06c;
@@ -13,7 +15,15 @@
     min-height: 100dvh;
 
 }
+.custom-navbar {
+    /* Set the background color to #f0f0f0 */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    border: none; /* Remove border */
 
+    /* If you want to make the navbar fully transparent, use the following property */
+    background-color: transparent;
+}
 /* Add custom CSS for styling */
 body {
     font-family: 'Abel', sans-serif;
@@ -23,13 +33,15 @@ body {
 .hero\.container {
     font-family: 'Anton', sans-serif;
 }
-h3{
+h1{
 font-family: 'Anton', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
+
 }
-/*h3{
-    font-size: 30px;
-}*/
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+}
 .col1 {
     min-height: 10px;
     min-width: 30px;
@@ -57,11 +69,13 @@ h5 {
 .small-circles {
     height: 18px;
     width: 18px;
-    border-radius: 18px;
-    font-size: 8px;
+    border-radius: 50px;
+    font-size: 13px;
     line-height: 18px;
     font-family: 'Anton', sans-serif;
-    margin-left: 1em;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    border: none; /* Remove border */
 }
 
 .small-circles span {
@@ -80,8 +94,8 @@ h5 {
 
 
 .design-circle {
-    width: 125px;
-    height: 125px;
+    width: 110px;
+    height: 110px;
     background-color: #E6563B;
     border-radius: 50%;
     display: flex;
@@ -91,8 +105,8 @@ h5 {
     color: white;
 }
 .develop-circle {
-    width: 125px;
-    height: 125px;
+    width: 110px;
+    height: 110px;
     background-color: #EB9D3A;
     border-radius: 50%;
     display: flex;
@@ -102,8 +116,8 @@ h5 {
     color: white;
 }
 .support-circle {
-    width: 125px;
-    height: 125px;
+    width: 110px;
+    height: 110px;
     background-color: #7CB06C;
     border-radius: 50%;
     display: flex;
@@ -113,8 +127,8 @@ h5 {
     color: white;
 }
 .host-circle {
-     width: 125px;
-     height: 125px;
+     width: 110px;
+     height: 110px;
      background-color: #00ABA9;
      border-radius: 50%;
      display: flex;
@@ -124,17 +138,29 @@ h5 {
      color: white;
  }
 .outer-circle {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     background-color: #FFFFFF;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container-fluid{
-    background-color: #F0F0F0;
+.outer-card {
+    width: 300px;
+    height: 300px;
+    background-color: #E6E6E6;
+    border-radius: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Remove padding */
+    margin: 10px; /* Remove margin */
+    border: none; /* Remove borde
 }
+/*.container-fluid{
+    background-color: #FFFFFF;
+}*/
 /* Add this CSS code to style your HTML structure */
 .small-images {
     width: 50px; /* Adjust the width as needed */
